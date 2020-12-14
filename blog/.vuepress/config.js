@@ -1,6 +1,12 @@
 module.exports = {
   title: 'Code Coffee',
-  plugins: ['@vuepress/back-to-top', '@vuepress/last-updated', '@vuepress/medium-zoom'],
+  plugins: [
+    '@vuepress/back-to-top',
+    '@vuepress/last-updated',
+    ['@vuepress/medium-zoom', {
+      selector: '.content__default :not(a) > img'
+    }],
+  ],
   description: 'Stimulate your development.',
   theme: 'modern-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
