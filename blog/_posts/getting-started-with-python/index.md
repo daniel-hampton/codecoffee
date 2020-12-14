@@ -3,10 +3,10 @@ title: Getting Started with Python
 description: Learn how to install and set up your development environment for python!
 sidebar: auto
 tags: ["python", "beginner", "getting-started", "ide", "anaconda"]
-published: "2020-02-24"
+date: "2020-02-24"
 prev: false
-next: "/tutorials/python-basics-numbers-and-functions/"
-image: /getting-started-with-python.jpg
+next: "/python-basics-numbers-and-functions/"
+image: /images/getting-started-with-python.jpg
 meta:
   - property: "og:title"
     content: "Getting Started with Python"
@@ -21,9 +21,6 @@ meta:
   - property: "og:type"
     content: "website"
 ---
-
-<ArticleTitle />
-<TagLinks />
 
 Let's learn how to download, install, and create your development environment to
 get started programming with python! Perhaps you've heard that coding is a

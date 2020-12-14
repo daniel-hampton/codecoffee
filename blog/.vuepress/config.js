@@ -1,5 +1,6 @@
 module.exports = {
   title: 'Code Coffee',
+  plugins: ['@vuepress/back-to-top', '@vuepress/last-updated', '@vuepress/medium-zoom'],
   description: 'Stimulate your development.',
   theme: 'modern-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
@@ -7,14 +8,17 @@ module.exports = {
      * Ref: https://vuepress-theme-blog.ulivz.com/#modifyblogpluginoptions
      */
     modifyBlogPluginOptions(blogPluginOptions) {
-      return blogPluginOptions
+            blogPluginOptions["directories"].find(
+        el => el.id === "post"
+      ).itemPermalink = '/:slug';
+      return blogPluginOptions;
     },
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#nav
      */
     nav: [
       {
-        text: 'Blog',
+        text: 'Home',
         link: '/',
       },
       {
@@ -43,7 +47,7 @@ module.exports = {
         // },
         {
           // text: 'MIT Licensed | Copyright © 2020-present Daniel Hampton',
-          text: 'Copyright © 2020-present Daniel Hampton',
+          text: 'Copyright © 2020 - present Daniel Hampton',
           link: '',
         },
       ],
