@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'VuePress Blog Example',
-  description: 'This is a blog example built by VuePress',
-  theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
+  title: 'Code Coffee',
+  description: 'Stimulate your development.',
+  theme: 'modern-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#modifyblogpluginoptions
@@ -29,20 +29,21 @@ module.exports = {
       contact: [
         {
           type: 'github',
-          link: 'https://github.com/ulivz',
+          link: 'https://github.com/dhampton084',
         },
         {
           type: 'twitter',
-          link: 'https://twitter.com/_ulivz',
+          link: 'https://twitter.com/DanCanDoTV',
         },
       ],
       copyright: [
+        // {
+        //   text: 'Privacy Policy',
+        //   link: 'https://policies.google.com/privacy?hl=en-US',
+        // },
         {
-          text: 'Privacy Policy',
-          link: 'https://policies.google.com/privacy?hl=en-US',
-        },
-        {
-          text: 'MIT Licensed | Copyright © 2018-present Vue.js',
+          // text: 'MIT Licensed | Copyright © 2020-present Daniel Hampton',
+          text: 'Copyright © 2020-present Daniel Hampton',
           link: '',
         },
       ],

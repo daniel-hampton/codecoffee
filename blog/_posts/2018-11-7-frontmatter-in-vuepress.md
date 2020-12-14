@@ -3,8 +3,11 @@ date: 2018-11-7
 tag: 
   - frontmatter
   - vuepress
-author: ULIVZ
-location: Hangzhou  
+# author: ULIVZ
+# location: Hangzhou
+title: Front Matter in VuePress
+description: What is Front Matter in Vuepress 🤔🤔🤔
+image: https://vuepress.vuejs.org/hero.png
 ---
 
 # Front Matter in VuePress
