@@ -6,6 +6,29 @@ module.exports = {
     ['@vuepress/medium-zoom', {
       selector: '.content__default :not(a) > img'
     }],
+    ['container', {
+      type: 'tip',
+      defaultTitle: {
+        '/': 'TIP',
+      }
+    }],
+    ['container', {
+      type: 'warning',
+      defaultTitle: {
+        '/': 'WARNING',
+      }
+    }],
+    ['container', {
+      type: 'danger',
+      defaultTitle: {
+        '/': 'WARNING',
+      }
+    }],
+    ['container', {
+      type: 'details',
+      before: info => `<details class="custom-block details">${info ? `<summary>${info}</summary>` : ''}\n`,
+      after: () => '</details>\n'
+    }],
   ],
   description: 'Stimulate your development.',
   theme: 'modern-blog', // OR shortcut: @vuepress/blog
