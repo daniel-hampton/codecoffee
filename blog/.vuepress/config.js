@@ -45,6 +45,10 @@ module.exports = {
           type: 'twitter',
           link: 'https://twitter.com/DanCanDoTV',
         },
+        {
+          type: 'youtube',
+          link: 'https://www.youtube.com/channel/UCb8RK2cBQl9X-l3TEVuT2Gg',
+        },
       ],
       copyright: [
         // {
@@ -54,7 +58,7 @@ module.exports = {
         {
           // text: 'MIT Licensed | Copyright © 2020-present Daniel Hampton',
           text: 'Copyright © 2020 - present Daniel Hampton',
-          link: '',
+          // link: '',
         },
       ],
     },
