@@ -1,0 +1,20 @@
+{
+  "name": "code_coffee",
+  "version": "0.0.1",
+  "description": "Stimulate your development.",
+  "main": "index.js",
+  "authors": {
+    "name": "Daniel Hampton",
+    "email": "dhampton084@gmail.com"
+  },
+  "repository": "/code_coffee",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.3.1",
+    "@vuepress/theme-blog": "^2.1.0"
+  }
+}
