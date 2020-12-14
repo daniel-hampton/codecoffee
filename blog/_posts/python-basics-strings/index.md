@@ -26,7 +26,7 @@ Harness the power of words in Python by manipulating text, also known as
 `strings`. 
 
 <!-- more -->
-<YouTube videoUrl="https://youtu.be/Di9VKVGdz3w" />
+<YouTube videoUrl="https://youtu.be/Di9VKVGdz3w"></YouTube>
 
 ## What Are Strings?
 In programming, strings are essentially the text data your code uses. This

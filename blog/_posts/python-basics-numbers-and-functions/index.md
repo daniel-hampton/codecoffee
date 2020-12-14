@@ -28,7 +28,7 @@ how to use them effectively with the interactive interpreter and Jupyter
 Notebooks.
 
 <!-- more -->
-<YouTube videoUrl="https://youtu.be/6VB6vG-tRyQ" />
+<YouTube videoUrl="https://youtu.be/6VB6vG-tRyQ"></YouTube>
 
 This tutorial assumes you have at least Python 3.6 installed. You can watch this
 video on

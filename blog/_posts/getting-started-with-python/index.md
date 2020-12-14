@@ -30,7 +30,7 @@ here in this tutorial, with no previous programming knowledge required! Let's
 get started!
 
 <!-- more -->
-<YouTube videoUrl="https://youtu.be/LP8Bkv3_pvQ" />
+<YouTube videoUrl="https://youtu.be/LP8Bkv3_pvQ"></YouTube>
 
 ## Download and Install Python
 
