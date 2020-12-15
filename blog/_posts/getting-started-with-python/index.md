@@ -52,9 +52,11 @@ Here you'll be able to download the installer for your operating system.
 The latest version at the time of this writing is 3.8.
 
 ::: tip A Note on Python Versions
+
 You're going to want the 3.X version of python. 2.X versions are not being
 supported any longer and you should avoid them unless you have a very specific
 reason.
+
 :::
 
 Windows and Mac OS X have installers. Just download them and follow the prompts.

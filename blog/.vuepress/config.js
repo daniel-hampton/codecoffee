@@ -42,6 +42,7 @@ module.exports = {
       ).itemPermalink = '/:slug';
       return blogPluginOptions;
     },
+    heroImage: '/images/vladyslav-bahara-EOva41PiBYg-unsplash.jpg',
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#nav
      */
