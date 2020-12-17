@@ -13,9 +13,9 @@ meta:
   - property: "og:description"
     content: "Discover how to use numbers, variables, and functions step by step."
   - property: "og:image"
-    content: "https://moderncoder.io/python-basics-numbers-and-functions.jpg"
+    content: "https://codecoffee.dev/images/python-basics-numbers-and-functions.jpg"
   - property: "og:url"
-    content: "https://moderncoder.io/tutorials/python-basics-numbers-and-functions/"
+    content: "https://codecoffee.dev/python-basics-numbers-and-functions/"
   - property: "twitter:card"
     content: "summary_large_image"
   - property: "og:type"
@@ -42,7 +42,7 @@ interpreter is shown in code blocks marked with `py` in the upper right. The
 output is displayed in a code block immediately below, without the `py` marker.
 
 You can view the `notebook` version of this article on
-[GitHub](https://github.com/dhampton084/mcio/blob/master/src/tutorials/python-basics-numbers-and-functions/python-basics-numbers-and-functions.ipynb)
+[GitHub](https://github.com/dhampton084/codecoffee/blob/main/blog/_posts/python-basics-numbers-and-functions/python-basics-numbers-and-functions.ipynb)
 
 You can also download the notebook and run it on your machine by
 [cloning the repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).

@@ -13,9 +13,9 @@ meta:
   - property: "og:description"
     content: "Learn how to manipulate text in Python. Use the power of words!"
   - property: "og:image"
-    content: "https://moderncoder.io/python-basics-strings.jpg"
+    content: "https://codecoffee.dev/images/python-basics-strings.jpg"
   - property: "og:url"
-    content: "https://moderncoder.io/tutorials/python-basics-strings/"
+    content: "https://codecoffee.dev/python-basics-strings/"
   - property: "twitter:card"
     content: "summary_large_image"
   - property: "og:type"
@@ -274,11 +274,11 @@ function.
 
 
 ```python
-my_string = "Hello and welcome to ModernCoder.io!"
+my_string = "Hello and welcome!"
 print(len(my_string))
 ```
 
-    36
+    18
 
 
 You can add or **concatenate** two or more strings together by using the `+`
@@ -290,7 +290,7 @@ new_string = my_string + " I hope you are enjoying learning to program."
 print(new_string)
 ```
 
-    Hello and welcome to ModernCoder.io! I hope you are enjoying learning to program.
+    Hello and welcome! I hope you are enjoying learning to program.
 
 
 You can duplicate a string multiple times by using the `*` operator.
@@ -313,7 +313,7 @@ talk about lists more in a future tutorial.
 print(my_string.split(' '))
 ```
 
-    ['Hello', 'and', 'welcome', 'to', 'ModernCoder.io!']
+    ['Hello', 'and', 'welcome!']
 
 
 You can change the case of a string by calling several methods on the string
@@ -328,7 +328,7 @@ my_string.lower()
 
 
 
-    'hello and welcome to moderncoder.io!'
+    'hello and welcome!'
 
 
 
@@ -341,7 +341,7 @@ my_string.upper()
 
 
 
-    'HELLO AND WELCOME TO MODERNCODER.IO!'
+    'HELLO AND WELCOME!'
 
 
 
@@ -354,7 +354,7 @@ my_string.title()
 
 
 
-    'Hello And Welcome To Moderncoder.Io!'
+    'Hello And Welcome!'
 
 
 
@@ -607,7 +607,7 @@ Let's review what we covered in this tutorial.
 I sincerely hope you enjoyed and learned something from this article. For
 questions, you can contact me on [Twitter](https://twitter.com/DanCanDoTV), for
 errors or corrections in the article you can create an Issue on
-[GitHub](https://github.com/dhampton084/mcio). Thanks for reading! 📖
+[GitHub](https://github.com/dhampton084/codecoffee). Thanks for reading! 📖
 
 If you want to know when the next tutorial and other content is released, you
 can subscribe to the
