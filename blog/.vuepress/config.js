@@ -29,6 +29,15 @@ module.exports = {
       before: info => `<details class="custom-block details">${info ? `<summary>${info}</summary>` : ''}\n`,
       after: () => '</details>\n'
     }],
+    [
+      'vuepress-plugin-mathjax',
+      {
+        target: 'svg',
+        macros: {
+          '*': '\\times',
+        },
+      },
+    ],
   ],
   description: 'Stimulate your development.',
   theme: 'modern-blog', // OR shortcut: @vuepress/blog
