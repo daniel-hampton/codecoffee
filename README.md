@@ -1,4 +1,4 @@
-# code_coffee
+# Code Coffee
 
 > Stimulate your development.
 
