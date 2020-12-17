@@ -15,3 +15,5 @@ basement_dist
 
 *.log
 .firebase/
+
+**/.ipynb_checkpoints/
